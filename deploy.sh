@@ -14,6 +14,8 @@ install_packages()
             additional="$additional $NVIDIA"
         elif [ $param == "nvidia-optimus" ]; then
             additional="$additional $NVIDIA_OPTIMUS"
+        elif [ $param == "nvidia-old" ]; then
+            additional="$additional $NVIDIA_OLD"
         elif [ $param == "power-manager" ]; then
             additional="$additional $PWR_MANAGER"
         fi
