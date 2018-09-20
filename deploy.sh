@@ -53,7 +53,7 @@ install_packages()
                  mirage \
                  gimp \
                  okular \
-                 lxrand \
+                 lxrandr \
                  $additional
 }
 
