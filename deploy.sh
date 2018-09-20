@@ -56,6 +56,7 @@ install_packages()
                  gimp \
                  okular \
                  lxrandr \
+                 feh \
                  $additional
 }
 
