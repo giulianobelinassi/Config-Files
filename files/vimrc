@@ -1,0 +1,17 @@
+set nocompatible
+set showcmd
+set tabstop=4
+set shiftwidth=4
+set autoindent
+syntax on
+set number
+set hlsearch
+let fortran_free_source=1
+let fortran_have_tabs=1
+let fortran_more_precise=1
+let fortran_do_enddo=1
+set expandtab
+autocmd Filetype Fortran expandtab
+autocmd Filetype python setlocal expandtab sw=4 ts=4
+
+set background=dark
