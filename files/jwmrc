@@ -13,11 +13,11 @@
         <!--<Include>/etc/jwm/debian-menu</Include> -->
         <Program label="Lxrandr">lxrandr</Program>
         <Separator/>
-        <Program label="HexChat">hexchat</Program>
+        <Program icon="hexchat.png" label="HexChat">hexchat</Program>
         <Program label="Telegram">$HOME/Telegram/Telegram</Program>
         <Program icon="audacious.png" label="Audacious">audacious</Program>
         <Program icon="google-chrome.png" label="Google Chrome">google-chrome</Program>
-        <Program icon="firefox.png" label="Firefox">firefox-esr</Program>
+        <Program icon="firefox-esr.png" label="Firefox">firefox-esr</Program>
         <Program icon="terminal.png" label="Terminal">xterm</Program>
         <Separator/>
         <Program icon="lock.png" label="Lock">
@@ -157,6 +157,13 @@
     <IconPath>/usr/share/icons/gnome/scalable/status</IconPath>
     <IconPath>/usr/share/icons/hicolor/256x256/apps</IconPath>
     <IconPath>/usr/share/icons/hicolor/256x256/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/actions</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/apps</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/categories</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/devices</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/emblems</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/mimetypes</IconPath>
+    <IconPath>/usr/share/icons/hicolor/48x48/status</IconPath>
     <IconPath>/usr/share/icons/hicolor/32x32/actions</IconPath>
     <IconPath>/usr/share/icons/hicolor/32x32/apps</IconPath>
     <IconPath>/usr/share/icons/hicolor/32x32/categories</IconPath>
