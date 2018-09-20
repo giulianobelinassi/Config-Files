@@ -3,7 +3,7 @@
 NVIDIA='nvidia-driver'
 NVIDIA_OLD='nvidia-legacy-340xx-driver' #for GeForce 8000/9000/200 cards
 NVIDIA_OPTIMUS='nvidia-driver nvidia-driver-libs-nonglvnd bumblebee-nvidia primus-libs'
-PWR_MANAGER=xfce4-power-manager
+PWR_MANAGER='xfce4-power-manager'
 
 install_packages()
 {
