@@ -10,4 +10,4 @@ The script support three options:
 * ```deploy.sh nvidia-old``` to perform a installation with the old nvidia driver (for my GeForce 9800GTX card).
 * ```deploy.sh power-manager``` to also install the xfce4-power-manager, very useful for laptops.
 
-You can comibe the above options, but I won't recommend you mess around with the nvidia driver stuff.
+You can combine the above options, but I do not recommend you mess around with the nvidia driver stuff.
