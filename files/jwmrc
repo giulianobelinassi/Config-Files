@@ -11,6 +11,9 @@
     <!-- The root menu. -->
     <RootMenu onroot="12">
         <!--<Include>/etc/jwm/debian-menu</Include> -->
+        <Menu label="Programs">
+        <Include>$HOME/.jwmapp</Include>
+        </Menu>
         <Program label="Lxrandr">lxrandr</Program>
         <Separator/>
         <Program icon="hexchat.png" label="HexChat">hexchat</Program>

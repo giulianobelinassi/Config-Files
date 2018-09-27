@@ -36,7 +36,7 @@ install_packages()
                  network-manager-gnome \
                  volumeicon-alsa \
                  pavucontrol \
-                 x11-server-utils \
+                 x11-xserver-utils \
                  audacious \
                  gcc \
                  gfortran \
@@ -50,13 +50,14 @@ install_packages()
                  vlc \
                  htop \
                  conky \
-                 svn \
+                 subversion \
                  hexchat \
                  mirage \
                  gimp \
                  okular \
                  lxrandr \
                  feh \
+                 gnome-screenshot \
                  $additional
 }
 
@@ -68,6 +69,7 @@ move_configs()
     cp -f $PWD/files/Xresources $HOME/.Xresources 
     cp -f $PWD/files/bashrc $HOME/.bashrc
     cp -f $PWD/files/bash_aliases $HOME/.bash_aliases
+    cp -f $PWD/files/jwmapp $HOME/.jwmapp
 
     mkdir -p $HOME/.config/volumeicon/
     cp -f $PWD/files/volumeicon $HOME/.config/volumeicon/volumeicon

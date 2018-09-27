@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<JWM>
+	<Menu label="Utility" icon="applications-accessories">
+		<Program label="Screenshot" icon="applets-screenshooter">gnome-screenshot --interactive</Program>
+		<Program label="Rxvt Color Unicode Terminal" icon="urxvt_48x48.xpm">urxvt</Program>
+	</Menu>
+	<Menu label="Game" icon="applications-games" />
+	<Menu label="Education" icon="applications-science" />
+	<Menu label="Development" icon="applications-development">
+		<Program label="Qt 5 Assistant" icon="assistant-qt5">/usr/lib/qt5/bin/assistant</Program>
+		<Program label="Qt 5 Designer" icon="designer-qt5">/usr/lib/qt5/bin/designer</Program>
+		<Program label="Qt 5 Linguist" icon="linguist-qt5">/usr/lib/qt5/bin/linguist</Program>
+	</Menu>
+	<Menu label="Graphics" icon="applications-graphics">
+		<Program label="ImageMagick (color depth=q16)" icon="display-im6.q16">/usr/bin/display-im6.q16 -nostdin</Program>
+		<Program label="GNU Image Manipulation Program" icon="gimp">gimp-2.10</Program>
+		<Program label="Mirage" icon="mirage">mirage</Program>
+	</Menu>
+	<Menu label="AudioVideo" icon="applications-multimedia">
+		<Program label="Audacious" icon="audacious">audacious</Program>
+		<Program label="mpv Media Player" icon="mpv">mpv</Program>
+		<Program label="PulseAudio Volume Control" icon="multimedia-volume-control">pavucontrol</Program>
+		<Program label="VLC media player" icon="vlc">/usr/bin/vlc --started-from-file</Program>
+	</Menu>
+	<Menu label="Settings" icon="preferences-desktop">
+		<Program label="DDC Control" icon="gddccontrol">pkexec gddccontrol</Program>
+		<Program label="Customize Look and Feel" icon="preferences-desktop-theme">lxappearance</Program>
+		<Program label="Monitor Settings" icon="video-display">lxrandr</Program>
+		<Program label="Network Connections" icon="preferences-system-network">nm-connection-editor</Program>
+		<Program label="TeXdoctk" icon="application-default-icon">texdoctk</Program>
+		<Program label="Power Manager" icon="xfce4-power-manager-settings">xfce4-power-manager-settings</Program>
+		<Program label="Screensaver" icon="xscreensaver">xscreensaver-demo</Program>
+	</Menu>
+	<Menu label="System" icon="applications-system">
+		<Program label="UXTerm" icon="mini.xterm">uxterm</Program>
+		<Program label="XTerm" icon="mini.xterm">xterm</Program>
+		<Program label="GDebi Package Installer" icon="gnome-mime-application-x-deb">gdebi-gtk</Program>
+		<Program label="Htop" icon="htop">/usr/bin/x-terminal-emulator -e htop</Program>
+		<Program label="Reportbug" icon="debian-swirl">reportbug</Program>
+		<Program label="Virtual Machine Manager" icon="virt-manager">virt-manager</Program>
+	</Menu>
+	<Menu label="Other" icon="applications-other" />
+	<Menu label="Network" icon="applications-internet" />
+	<Menu label="Science" icon="applications-science" />
+	<Menu label="Office" icon="applications-office">
+		<Program label="Okular" icon="okular">okular</Program>
+		<Program label="Zathura" icon="org.pwmt.zathura">zathura</Program>
+		<Program label="prerex" icon="application-default-icon">/usr/bin/x-terminal-emulator -e prerex</Program>
+		<Program label="vprerex" icon="vprerex">vprerex</Program>
+	</Menu>
+	<Menu label="Accessibility" icon="applications-accessibility" />
+</JWM>
