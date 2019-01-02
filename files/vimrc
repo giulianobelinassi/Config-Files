@@ -1,4 +1,31 @@
+" Copyright (C) 2014 Free Software Foundation, Inc.
+"
+" This program is free software; you can redistribute it and/or modify
+" it under the terms of the GNU General Public License as published by
+" the Free Software Foundation; either version 3 of the License, or
+" (at your option) any later version.
+"
+" This program is distributed in the hope that it will be useful,
+" but WITHOUT ANY WARRANTY; without even the implied warranty of
+" MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+" GNU General Public License for more details.
+"
+" You should have received a copy of the GNU General Public License
+" along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'git://github.com/itchyny/calendar.vim.git'
+    Plugin 'git://github.com/jceb/vim-orgmode.git'
+    Plugin 'git://github.com/tpope/vim-speeddating.git'
+    call vundle#end()
+filetype plugin indent on
+
 set showcmd
 set tabstop=4
 set shiftwidth=4
@@ -15,3 +42,35 @@ autocmd Filetype Fortran expandtab
 autocmd Filetype python setlocal expandtab sw=4 ts=4
 
 set background=dark
+set laststatus=2
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
+
+set runtimepath^=~/.im/bundle/journal.vim
+
+function! Kernel()
+    set tabstop=8
+    set shiftwidth=8
+    set noexpandtab
+endfunction
+
+function! Gcc()
+  let l:fname = expand("%:p")
+  if stridx(l:fname, 'libsanitizer') != -1
+    return
+  endif
+  let l:ext = fnamemodify(l:fname, ":e")
+  let l:c_exts = ['c', 'h', 'cpp', 'cc', 'C', 'H', 'def', 'java']
+  if index(l:c_exts, l:ext) != -1
+    setlocal cindent
+    setlocal tabstop=8
+    setlocal softtabstop=2
+    setlocal shiftwidth=2
+    setlocal noexpandtab
+    setlocal cinoptions=>4,n-2,{2,^-2,:2,=2,g0,f0,h2,p4,t0,+2,(0,u0,w1,m0
+    setlocal textwidth=80
+    setlocal formatoptions-=ro formatoptions+=cqlt
+  endif
+endfunction
+

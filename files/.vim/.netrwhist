@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex/tests'
+let g:netrw_dirhist_2='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex'
+let g:netrw_dirhist_3='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex/tests'
+let g:netrw_dirhist_4='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex'
+let g:netrw_dirhist_5='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex/tests'
+let g:netrw_dirhist_6='/home/giulianob/Documentos/USP/IME CC/Mestrado/2 Semestre/Compiladores/lex'

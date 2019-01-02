@@ -71,6 +71,8 @@ move_configs()
     cp -f $PWD/files/bash_aliases $HOME/.bash_aliases
     cp -f $PWD/files/jwmapp $HOME/.jwmapp
 
+    cp -rf $PWD/files/vim $HOME/.vim
+
     mkdir -p $HOME/.config/volumeicon/
     cp -f $PWD/files/volumeicon $HOME/.config/volumeicon/volumeicon
 
